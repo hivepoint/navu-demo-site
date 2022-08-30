@@ -1115,7 +1115,7 @@
       navuBar.style.setProperty('--navu-bar-bg', '#312826');
     }
     document.querySelector('#slickalt').addEventListener('click', () => {
-      navuBar.alt = !navuBar.alt;
+      navuBar.alt = (navuBar.alt + 1) % 3;
     });
   </script>
 
