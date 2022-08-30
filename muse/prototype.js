@@ -111,7 +111,7 @@
           pointer-events: auto;
         }
       }
-    `],u([f()],b.prototype,"visited",2),u([f()],b.prototype,"selected",2),u([f()],b.prototype,"image",2),u([f()],b.prototype,"href",2),b=u([P("page-indicator")],b);var lt=[{label:"Case Study: How to Double Traffic in 6 Months \xBB",url:"./case-study.html",image:"./muse/page0.png"},{label:"Discover more about Structured Data \xBB",url:"./structured-data.html",image:"./muse/page1.png"},{label:"Curious about pricing?",url:"./pricing.html",image:"./muse/page2.png"},{label:"Something specific? Check our knowledge base \xBB",url:"./knowledge-base.html",image:"./muse/page3.png"}],A=class extends v{constructor(){super(...arguments);this._thinking=!1;this.alt=!1}render(){let e=this._hovered||this._selected;return $`
+    `],u([f()],b.prototype,"visited",2),u([f()],b.prototype,"selected",2),u([f()],b.prototype,"image",2),u([f()],b.prototype,"href",2),b=u([P("page-indicator")],b);var lt=[{label:"Case Study: How to Double Traffic in 6 Months \xBB",url:"./case-study.html",image:"./page0.png"},{label:"Discover more about Structured Data \xBB",url:"./structured-data.html",image:"./page1.png"},{label:"Curious about pricing?",url:"./pricing.html",image:"./page2.png"},{label:"Something specific? Check our knowledge base \xBB",url:"./knowledge-base.html",image:"./page3.png"}],A=class extends v{constructor(){super(...arguments);this._thinking=!1;this.alt=!1}render(){let e=this._hovered||this._selected;return $`
     <div id="container" class="horiz center ${this.alt?"alt":""}">
       <thinking-animation .active="${this._thinking}"></thinking-animation>
       <div id="messageConatiner" class="flex">
