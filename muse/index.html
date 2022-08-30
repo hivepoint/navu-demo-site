@@ -1110,8 +1110,8 @@
   <script>
     const navuBar = document.querySelector('navu-bar');
     if (window.location.search.indexOf('dark') >= 0) {
-      navuBar.style.backgroundColor = '#312826';
       navuBar.style.setProperty('--navubar-highlight-color', 'white');
+      navuBar.style.setProperty('--navu-bar-bg', '#312826');
     }
     document.querySelector('#slickalt').addEventListener('click', () => {
       navuBar.alt = !navuBar.alt;

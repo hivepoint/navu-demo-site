@@ -141,7 +141,7 @@
     `}firstUpdated(){setTimeout(()=>{this._selected||(this._hovered?this.firstUpdated():(this._thinking=!0,setTimeout(()=>{this._thinking=!1,this._selected=lt[0]},4e3)))},5e3)}};A.styles=[v.styles,g`
       :host {
         display: block;
-        background: white;
+        background: var(--navu-bar-bg, white);
         position: fixed;
         bottom: 0;
         left: 0;
@@ -205,7 +205,7 @@
         opacity: 0;
         transform: translateY(120%);
         transition: transform 0.3s ease-out;
-        background: white;
+        background: var(--navu-bar-bg, white);
         text-decoration: none;
         font-family: system-ui;
         letter-spacing: 0.5px;
