@@ -260,7 +260,7 @@
     <div id="container" @mouseenter="${this._containerMouseEnter}" @mouseleave="${this._containerMouseLeave}">
       <a id="backCallout" class="cardLink" href="https://www.marketmuse.com/content-briefs/">
         <figure class="imagePanel">
-          <img src="./muse2/shots/shot1.png">
+          <img src="/muse2/shots/shot1.png">
         </figure>
         <figcaption>Content briefs</figcaption>
       </a>
@@ -272,19 +272,19 @@
       <div id="backLinks">
         <a class="cardLink" href="https://www.marketmuse.com/content-briefs/">
           <figure class="imagePanel">
-            <img src="./muse2/shots/shot2.png">
+            <img src="/muse2/shots/shot2.png">
           </figure>
           <figcaption>Pricing</figcaption>
         </a>
         <a class="cardLink" href="https://www.marketmuse.com/content-briefs/">
           <figure class="imagePanel">
-            <img src="./muse2/shots/shot3.png">
+            <img src="/muse2/shots/shot3.png">
           </figure>
           <figcaption>How to effectively manage your content planning process</figcaption>
         </a>
         <a class="cardLink" href="https://www.marketmuse.com/content-briefs/">
           <figure class="imagePanel">
-            <img src="./muse2/shots/shot4.png">
+            <img src="/muse2/shots/shot4.png">
           </figure>
           <figcaption>Middle-of-funnel content & missed opportunities</figcaption>
         </a>
@@ -468,7 +468,7 @@
       #chevron {
         line-height: 12px;
       }
-    `],c([L({type:Boolean})],U.prototype,"chevron",2),c([g()],U.prototype,"visited",2),c([g()],U.prototype,"image",2),c([g()],U.prototype,"href",2),c([g()],U.prototype,"_previewing",2),c([R("#previewCard")],U.prototype,"_previewCard",2),U=c([S("page-dot")],U);var ji=[{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot4.png",seen:!1}],he=class extends v{constructor(){super(...arguments);this.floating=!1;this._pages=ji}render(){return f`
+    `],c([L({type:Boolean})],U.prototype,"chevron",2),c([g()],U.prototype,"visited",2),c([g()],U.prototype,"image",2),c([g()],U.prototype,"href",2),c([g()],U.prototype,"_previewing",2),c([R("#previewCard")],U.prototype,"_previewCard",2),U=c([S("page-dot")],U);var ji=[{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot4.png",seen:!1}],he=class extends v{constructor(){super(...arguments);this.floating=!1;this._pages=ji}render(){return f`
     <div id="container" class="horiz center ${this.floating?"floating":""}">
     ${this._pages.map(t=>f`
       <page-dot 
@@ -492,7 +492,7 @@
       #container.floating {
         border-radius: 10px;
       }
-    `],c([g()],he.prototype,"floating",2),c([g()],he.prototype,"_pages",2),he=c([S("page-dot-bar")],he);var Bi=[{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot7.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot1.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot2.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot7.png",seen:!1}],z=class extends v{constructor(){super(...arguments);this.floating=!1;this._shellOpen=!1;this._cardsLoaded=!1}firstUpdated(){x(this._innerShellContent,{opacity:0,y:"150%"},{easing:"linear",duration:0}),x(this._stripCards,{opacity:0,y:"25%",scale:.4},{easing:"linear",duration:0}),setTimeout(()=>{this._dotBar.showInitiaPreview()},2e3)}render(){return f`
+    `],c([g()],he.prototype,"floating",2),c([g()],he.prototype,"_pages",2),he=c([S("page-dot-bar")],he);var Bi=[{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot7.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot1.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot2.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot7.png",seen:!1}],z=class extends v{constructor(){super(...arguments);this.floating=!1;this._shellOpen=!1;this._cardsLoaded=!1}firstUpdated(){x(this._innerShellContent,{opacity:0,y:"150%"},{easing:"linear",duration:0}),x(this._stripCards,{opacity:0,y:"25%",scale:.4},{easing:"linear",duration:0}),setTimeout(()=>{this._dotBar.showInitiaPreview()},2e3)}render(){return f`
     ${this.floating?f`
     <style>
       :host {
@@ -708,7 +708,7 @@
           transform: scale(1.1);
         }
       }
-    `],c([L({type:Boolean})],z.prototype,"floating",2),c([g()],z.prototype,"_shellOpen",2),c([g()],z.prototype,"_cardsLoaded",2),c([R("#innerShellContent")],z.prototype,"_innerShellContent",2),c([R("page-dot-bar")],z.prototype,"_dotBar",2),c([Ie(".stripCard")],z.prototype,"_stripCards",2),z=c([S("navu-explorer")],z);var Ni=[{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot4.png",seen:!1}],ue=class extends v{constructor(){super(...arguments);this.floating=!1;this._pages=Ni}render(){return f`
+    `],c([L({type:Boolean})],z.prototype,"floating",2),c([g()],z.prototype,"_shellOpen",2),c([g()],z.prototype,"_cardsLoaded",2),c([R("#innerShellContent")],z.prototype,"_innerShellContent",2),c([R("page-dot-bar")],z.prototype,"_dotBar",2),c([Ie(".stripCard")],z.prototype,"_stripCards",2),z=c([S("navu-explorer")],z);var Ni=[{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot4.png",seen:!1}],ue=class extends v{constructor(){super(...arguments);this.floating=!1;this._pages=Ni}render(){return f`
     <div id="container" class="horiz center ${this.floating?"floating":""}">
     ${this._pages.map(t=>f`
       <page-dot 
@@ -742,7 +742,7 @@
       #container:hover #chevron {
         display: block;
       }
-    `],c([g()],ue.prototype,"floating",2),c([g()],ue.prototype,"_pages",2),ue=c([S("page-dot-bar2")],ue);var Vi=[{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot7.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot1.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot2.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"./muse2/shots/shot7.png",seen:!1}],H=class extends v{constructor(){super(...arguments);this.floating=!1;this._shellOpen=!1;this._cardsLoaded=!1}firstUpdated(){x(this._innerShellContent,{opacity:0,y:"150%"},{easing:"linear",duration:0}),x(this._stripCards,{opacity:0,y:"25%",scale:.4},{easing:"linear",duration:0}),setTimeout(()=>{this._dotBar.showInitiaPreview()},2e3)}render(){return f`
+    `],c([g()],ue.prototype,"floating",2),c([g()],ue.prototype,"_pages",2),ue=c([S("page-dot-bar2")],ue);var Vi=[{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot1.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot2.png",seen:!0},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot7.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot1.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot2.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot3.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot4.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot5.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot6.png",seen:!1},{url:"https://www.marketmuse.com/content-briefs/",image:"/muse2/shots/shot7.png",seen:!1}],H=class extends v{constructor(){super(...arguments);this.floating=!1;this._shellOpen=!1;this._cardsLoaded=!1}firstUpdated(){x(this._innerShellContent,{opacity:0,y:"150%"},{easing:"linear",duration:0}),x(this._stripCards,{opacity:0,y:"25%",scale:.4},{easing:"linear",duration:0}),setTimeout(()=>{this._dotBar.showInitiaPreview()},2e3)}render(){return f`
     ${this.floating?f`
     <style>
       :host {
